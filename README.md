@@ -34,6 +34,7 @@ The "CSV to CCT Importer" plugin allows WordPress administrators to import items
 
 ## File Structure
 
+```
 csv-a-cct-importador/
 │
 ├── admin/
@@ -47,6 +48,7 @@ csv-a-cct-importador/
 │
 ├── csv-cct-importador.php
 └── csv-cct-importador.css
+```
 
 ## Plugin Workflow
 
