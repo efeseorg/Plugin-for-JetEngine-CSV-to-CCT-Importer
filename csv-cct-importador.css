@@ -1,0 +1,99 @@
+/* Estilos básicos para el plugin CSV a CCT Importador */
+.csv-cct-importador-wrapper h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.csv-cct-importador-wrapper table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.csv-cct-importador-wrapper th,
+.csv-cct-importador-wrapper td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.csv-cct-importador-wrapper th {
+    background-color: #f8f8f8;
+}
+
+.csv-cct-importador-wrapper input[type="file"],
+.csv-cct-importador-wrapper select,
+.csv-cct-importador-wrapper input[type="submit"] {
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+    box-sizing: border-box;
+    line-height: 1.5em;
+}
+
+.csv-cct-importador-wrapper .boton-import-csv {
+    background: #007cba;
+    border: solid 1px;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+}
+.csv-cct-importador-wrapper .boton-import-csv:hover {
+    background: #0374ac;
+}
+
+/* Estilo específico para el input de tipo file */
+.custom-file-label {
+    text-align: center;
+    cursor: pointer;
+}
+
+.custom-file-input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.custom-file-text {
+    display: inline-block;
+    padding: 5px 10px;
+    background: #efefef;
+    border-radius: 3px;
+    border: solid 1px;
+    width: 100%;
+    box-sizing: border-box;
+    line-height: 2.4em;
+}
+
+.custom-file-text:hover {
+    background: #e4e4e4;
+}
+
+.step-csv-import{
+   width: 30px;
+    height: 30px; 
+    display: inline-block;
+    text-align: center;
+    line-height: 28px;
+    color: #fff;
+    background: #007cba;
+    margin-right: 0.5em;
+    border-radius: 50px;
+}
+
+.box-container-csv-import{
+    width: 300px;
+    display: inline-block;
+    margin-right: 1em;
+    background: #fff;
+    padding: 1em;
+    border-radius: 3px;
+    float: left;
+}
+
+.box-container-csv-import h3{
+    margin-top: 0;
+}
